@@ -14,8 +14,9 @@ ecommerce_EDA/
 |   └── ecommerce_cleaned.csv                       # Cleaned dataset
 │
 ├── images/
-│   ├── rcustomer_demographics.png                   
-│   └── monthly_revenue_and_order.png                 
+│   ├── customer_demographics.png                   
+│   └── monthly_revenue_and_order.png       
+|   └── dashboard_preview.png          
 │
 ├── EDA.ipynb                                       # Main Analysis Notebook
 ├── cleaner.ipynb                                   # Python script to clean data
@@ -32,7 +33,9 @@ Based on the analysis in `EDA.ipynb`, several actionable insights were discovere
 
 ## 📸 Visualizations
 
-[Dashboard Overview](https://public.tableau.com/app/profile/franco.nicolay4042/viz/KeyE-commerceKPIsandBehavioralAnalysis/Dashboard1#1)
+[![Tableau](https://img.shields.io/badge/Dashboard-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/franco.nicolay4042/viz/KeyE-commerceKPIsandBehavioralAnalysis/Dashboard1#1)
+
+[![Dashboard Preview](images/dashboard_preview.png)](https://public.tableau.com/app/profile/franco.nicolay4042/viz/KeyE-commerceKPIsandBehavioralAnalysis/Dashboard1#1)
 
 ![Customer Demographics](images/customer_demographics.png)
 
@@ -57,10 +60,10 @@ Make sure you have Python installed. You can install the required libraries usin
 ```git clone https://github.com/NicolayF/ecommerce_EDA.git```
 
 2. Navigate to the project directory:
-``` cd ecommerce_EDA```
+```cd ecommerce_EDA```
 
 3. Run the notebook:
-``` jupyter notebook EDA.ipynb```
+```jupyter notebook EDA.ipynb```
 
 ## 🔮 Future Work
 * **Churn Prediction:** Implement a Logistic Regression model using the `Is_Returning_Customer` column.
