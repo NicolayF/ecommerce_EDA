@@ -1,0 +1,26 @@
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+# These checkpoints are created automatically and clutter the repo
+.ipynb_checkpoints/
+
+# --- Data (Optional) ---
+# If your dataset was very large (>100MB) you should uncomment the next line:
+# data/
+
+# --- IDE Settings (Optional) ---
+.vscode/
+.idea/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
